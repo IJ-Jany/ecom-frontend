@@ -1,0 +1,159 @@
+#footer{
+    padding: 48px 0 38px 0;
+    background: #fff;
+}
+
+.footer-navbar-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.footer-navbar-flex::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #494545;
+    left: 0;
+    bottom: -48px;
+}
+
+.footer-logo-container{
+    width: 30%;
+    text-align: left;
+}
+
+.footer-logo-head-box{
+   text-align: left;
+   margin-bottom: 50px;
+}
+
+.footer-logo-head{
+   font-size: 24px;
+   font-weight: 700;
+   color: #000;
+   text-transform: capitalize;
+}
+
+.footer-pera-box{
+    text-align: left;
+}
+
+.footer-pera{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 140%;
+    width: 285px;
+}
+
+.footer-link-container-flex{
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    column-gap: 222px;
+}
+
+.footer-link-box{
+    text-align: left;
+}
+
+.footer-link-head{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #9F9F9F;
+    margin-bottom: 50px;
+}
+
+.footer-link-flex{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    row-gap: 46px;
+}
+
+.footer-link-flex li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.footer-subs-box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 11px;
+}
+
+.footer-link-input-box{
+    width: 100%;
+    position: relative;
+}
+
+.footer-link-input-box::after{
+    content: "";
+    position: absolute;
+    width: 88%;
+    height: 3px;
+    background: #494545;
+    left: 0;
+    bottom: 0;
+
+}
+
+.footer-link-input-box input {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9F9F9F;
+    border: none;
+    outline: none;
+}
+
+.footer-subs-btn-box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.footer-subs-btn-box::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #494545;
+    left: 0;
+    bottom: -10px;
+
+}
+
+.footer-subs-btn{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.footer-copyright-box{
+    margin-top: 85px;
+    text-align: left;
+}
+
+.footer-copyright-contant{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}

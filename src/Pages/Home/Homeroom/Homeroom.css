@@ -1,0 +1,124 @@
+#homeroom{
+    padding: 44px 0;
+    width: 100%;
+    background: #FCF8F3;
+}
+
+.homeroom-contant-room-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.homeroom-contant-box{
+    margin-top: 100px;
+    text-align: left;
+}
+
+.homeroom-contant-head{
+    width: 422px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 7px;
+}
+
+.homeroom-contant-pera{
+    width: 368px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#616161;
+}
+
+.homeroom-contact-btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.homeroom-contact-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    background: #B88E2F;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+}
+
+.homeroom-big-img-box{
+    width: 404px;
+    height: 582px;
+    overflow: hidden;
+    position: relative;
+}
+
+.homeroom-big-img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeroom-big-img-content-box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.homeroom-big-img-contant-box{
+    padding: 32px;
+    background: #FFFFFF;
+    width: 217px;
+    height: 130px;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    z-index: 1;
+}
+
+.homeroom-big-img-contant-pera{
+    font-size: 16px;
+    font-weight: 500;
+    color: #616161;
+    margin-bottom: 8px;
+}
+
+.homeroom-big-img-contant-nenohead{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.homeroom-big-img-btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeroom-big-img-btn{
+    padding: 18px 15px;
+    background: #B88E2F;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    right: 119px;
+    bottom: 24px;
+    z-index: 1;
+    border: none;
+}
+
+.homeroom-small-img{
+    width: 372px;
+    height: 486px;
+    overflow: hidden;
+}
+
+.homeroom-small-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

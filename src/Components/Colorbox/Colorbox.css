@@ -1,0 +1,28 @@
+.color-box-flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 12px;
+}
+
+.color-box-one{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #816DFA;
+}
+
+.color-box-two{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.color-box-three{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:#B88E2F;
+}

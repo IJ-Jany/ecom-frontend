@@ -1,0 +1,51 @@
+#contactsupport{
+    padding: 100px 0;
+    background: #FAF3EA;
+}
+
+.contactsupport-contant-wrapper-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 55px;
+    flex-wrap: wrap;
+}
+
+.contactsupport-contant-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.contactsupport-contant-img-box{
+    width: 52px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.contactsupport-contant-img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: #242424;
+}
+
+.contactsupport-contant-box{
+    text-align: left;
+}
+
+.contactsupport-contant-head{
+    font-size: 25px;
+    font-weight: 600;
+    color: #242424;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.contactsupport-contant-pera{
+    font-size: 20px;
+    font-weight: 500;
+    color: #242424;
+}
+

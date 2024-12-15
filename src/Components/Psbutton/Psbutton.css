@@ -1,0 +1,23 @@
+.ps-btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ps-btn{
+    padding: 15px 24px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    background: #F9F1E7;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.ps-btn:hover{
+    color: #fff;
+    background: #B88E2F;
+    transition: all linear 0.3s;
+}
